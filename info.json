@@ -1,0 +1,9 @@
+{
+  "name": "personal-respawn-anchor",
+  "version": "0.1.2",
+  "title": "Personal Respawn Anchor",
+  "author": "soyukke",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0"],
+  "description": "Adds player-specific, surface-specific respawn anchors for multiplayer games. Inspired by the simple respawn-anchor idea, but implemented as an independent mod with separate assets."
+}

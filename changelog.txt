@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2026-07-04
+  Changes:
+    - Add credits file clarifying inspiration and independent implementation.
+    - Use distinct recipe and technology costs.
+    - Remove copied-looking prototype fields from the item definition.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2026-07-04
+  Features:
+    - Add map tags showing each player's personal spawn anchor.
+    - Add generated original icon and thumbnail art.
+  Changes:
+    - Polish metadata for Mod Portal submission.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-07-04
+  Features:
+    - Initial personal respawn anchor implementation.
+    - Store anchors per player and per surface.
+    - Teleport only the respawned player to their own anchor.

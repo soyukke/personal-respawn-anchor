@@ -1,0 +1,19 @@
+/target/
+
+# Local runtime or manually copied mod zips
+*.zip
+!*.md
+
+# Local secrets / scanner output
+.env
+.env.*
+!.env.example
+gitleaks-report.*
+
+# Editor / OS junk
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+.DS_Store
