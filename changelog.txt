@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2026-07-11
+  Changes:
+    - Snap the respawn anchor to the normal building grid when placing it.
+    - Add a separate Factorio-style cast shadow layer.
+
+---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 2026-07-04
   Changes:

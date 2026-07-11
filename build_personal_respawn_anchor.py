@@ -15,6 +15,7 @@ INCLUDED_PATHS = [
     "CREDITS.md",
     "data.lua",
     "graphics/personal-respawn-anchor.png",
+    "graphics/personal-respawn-anchor-shadow.png",
     "info.json",
     "LICENSE",
     "locale/en/locale.cfg",
