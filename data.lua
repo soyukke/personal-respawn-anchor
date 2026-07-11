@@ -28,17 +28,30 @@ data:extend({
     icon_size = 128,
     collision_box = {{-1.5, -1.5}, {1.5, 1.5}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    flags = {"placeable-neutral", "player-creation", "placeable-off-grid"},
+    flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "personal-respawn-anchor"},
     max_health = 100,
     corpse = "small-remnants",
     inventory_size = 0,
     picture = {
-      filename = "__personal-respawn-anchor__/graphics/personal-respawn-anchor.png",
-      priority = "extra-high",
-      width = 128,
-      height = 128,
-      scale = 1
+      layers = {
+        {
+          filename = "__personal-respawn-anchor__/graphics/personal-respawn-anchor.png",
+          priority = "extra-high",
+          width = 128,
+          height = 128,
+          scale = 1
+        },
+        {
+          filename = "__personal-respawn-anchor__/graphics/personal-respawn-anchor-shadow.png",
+          priority = "extra-high",
+          width = 160,
+          height = 128,
+          shift = {0.5, 0.25},
+          draw_as_shadow = true,
+          scale = 1
+        }
+      }
     },
     order = "b[personal-respawn-anchor]"
   },
